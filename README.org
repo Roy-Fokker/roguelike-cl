@@ -1,10 +1,9 @@
-#+TITLE: Dot File Readme
+#+TITLE: Rogue-Like in Common Lisp
 #+AUTHOR: Neel Raiyani
 #+STARTUP: content indent
 #+KEYWORDS: readme
 
-* Rogue-Like in Common Lisp
-  Learning Common Lisp by making a simplest of roguelike.
+Learning Common Lisp by making a simplest of roguelike.
 	
 * System Setup
   Development OS is Window 10 [1909].
@@ -50,4 +49,6 @@ Project depends on following packages, installed via `Quicklisp`.
 
 * License
 MIT
+
+* Lesson 1: Project Setup
 
