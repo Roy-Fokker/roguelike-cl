@@ -71,6 +71,16 @@ MIT
    #+END_SRC
 8. SUCCESS!
 
+* Lesson 1: GLFW and OpenGL Window
+1. Add =basic-window= function to ~rogue-like.lisp~.
+2. Tell Slime to compile and load it.
+3. Test in REPL by calling it.
+   #+BEGIN_SRC lisp
+     (basic-window 800 600)
+   #+END_SRC
+4. SUCCESS!
+
+
 
 
 
