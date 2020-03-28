@@ -10,15 +10,15 @@ Learning Common Lisp by making a simplest of roguelike.
 
 ** Applications used
 Following application are installed.
-- Msys2 x64
-  - mingw64/mingw-w64-x86_64-toolchain
-  - mingw64/mingw-w64-x86_64-glfw
-- Git for Windows 2.26.0.windows.1
-- SBCL 2.0.0
-- Quicklisp
-- Emacs 26.3
-  - SLIME
-  - Magit
+- [[https://www.msys2.org/][Msys2 x64]]
+  - [[https://packages.msys2.org/group/mingw-w64-x86_64-toolchain][mingw64/mingw-w64-x86_64-toolchain]]
+  - [[https://packages.msys2.org/package/mingw-w64-x86_64-glfw][mingw64/mingw-w64-x86_64-glfw]]
+- [[https://git-scm.com/][Git for Windows 2.26.0.windows.1]]
+- [[http://www.sbcl.org/platform-table.html][SBCL 2.0.0]]
+- [[https://www.quicklisp.org/beta/][Quicklisp]]
+- [[https://www.gnu.org/software/emacs/][Emacs 26.3]]
+  - [[https://common-lisp.net/project/slime/][SLIME]]
+  - [[https://magit.vc/][Magit]]
 
 ** Configuration
 Following is how environment is configured.
@@ -32,9 +32,9 @@ Following is how environment is configured.
 
 ** Project Dependencies
 Project depends on following packages, installed via `Quicklisp`.
-- cl-opengl
-- cl-glfw3
-- trivial-main-thread
+- [[http://quickdocs.org/cl-opengl/][cl-opengl]]
+- [[http://quickdocs.org/cl-glfw3/][cl-glfw3]]
+- [[http://quickdocs.org/trivial-main-thread/][trivial-main-thread]]
 
 * Resources 
 ** Learning from
