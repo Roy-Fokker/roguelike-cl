@@ -1,0 +1,53 @@
+#+TITLE: Dot File Readme
+#+AUTHOR: Neel Raiyani
+#+STARTUP: content indent
+#+KEYWORDS: readme
+
+* Rogue-Like in Common Lisp
+  Learning Common Lisp by making a simplest of roguelike.
+	
+* System Setup
+  Development OS is Window 10 [1909].
+
+** Applications used
+Following application are installed.
+- Msys2 x64
+  - mingw64/mingw-w64-x86_64-toolchain
+  - mingw64/mingw-w64-x86_64-glfw
+- Git for Windows 2.26.0.windows.1
+- SBCL 2.0.0
+- Quicklisp
+- Emacs 26.3
+  - SLIME
+  - Magit
+
+** Configuration
+Following is how environment is configured.
+- Environment Variables
+  - *Path*:
+    - Msys2 - added `${MSYS2 INSTALL DIR}/mingw64/bin/`
+    - Git - added `${GIT INSTALL DIR}/cmd/`
+    - SBCL - added `${SBCL INSTALL DIR}`
+  - *SBCL_HOME*:
+    - `${SBCL INSTALL DIR}`
+
+** Project Dependencies
+Project depends on following packages, installed via `Quicklisp`.
+- cl-opengl
+- cl-glfw3
+- trivial-main-thread
+
+* Resources 
+** Learning from
+- cl-glfw3-examples
+- cl-tcod-tutorial
+- 
+
+** Art from
+-
+-
+-
+
+* License
+MIT
+
