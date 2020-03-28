@@ -50,9 +50,29 @@ Project depends on following packages, installed via `Quicklisp`.
 * License
 MIT
 
-* Lesson 1: Project Setup
+* Lesson 0: Project Setup
 1. Setup project ASDF file (.asd).
 2. Create ~src~ directory.
 3. Add ~package.lisp~ and ~rogue-like.lisp~ to ~src~ folder.
-4. 
+4. Add =hello-world= function to ~rogue-like.lisp~.
+5. Open REPL with SLIME, and load project. 
+   [M-x slime] then type in
+   #+BEGIN_SRC lisp
+     (load #p "rogue-like.asd")
+     (ql:quickload :rogue-like)
+   #+END_SRC
+6. Get into =rogue-like= package.
+   #+BEGIN_SRC lisp
+     (in-package :rogue-like)
+   #+END_SRC
+7. Execute function =hello-world=
+   #+BEGIN_SRC lisp
+     (hello-world)
+   #+END_SRC
+8. SUCCESS!
+
+
+
+
+
 
