@@ -51,4 +51,8 @@ Project depends on following packages, installed via `Quicklisp`.
 MIT
 
 * Lesson 1: Project Setup
+1. Setup project ASDF file (.asd).
+2. Create ~src~ directory.
+3. Add ~package.lisp~ and ~rogue-like.lisp~ to ~src~ folder.
+4. 
 
