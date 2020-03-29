@@ -7,10 +7,10 @@ Learning Common Lisp by making a simplest of roguelike.
 Navigate history using Tags.
 
 ** Jumps
-- [[Lesson0]]: Project Setup
-- [[Lesson1]]: GLFW and OpenGL Window
-- [[Lesson2]]: Move using key-presses
-- [[Lesson3]]: Sprites and Textures
+- [[Lesson 0: Project Setup]]
+- [[Lesson 1: GLFW and OpenGL Window]]
+- [[Lesson 2: Move using key-presses]]
+- [[Lesson 3: Sprites and Textures]]
 
 
 * System Setup
@@ -59,7 +59,6 @@ Project depends on following packages, installed via `Quicklisp`.
 MIT
 
 * Lesson 0: Project Setup
-<<Lesson0>>
 1. Setup project ASDF file (.asd).
 2. Create ~src~ directory.
 3. Add ~package.lisp~ and ~rogue-like.lisp~ to ~src~ folder.
@@ -81,7 +80,6 @@ MIT
 8. SUCCESS!
 
 * Lesson 1: GLFW and OpenGL Window
-<<Lesson1>>
 1. Add =basic-window= function to ~rogue-like.lisp~.
 2. Tell Slime to compile and load it.
 3. Test in REPL by calling it.
@@ -91,7 +89,6 @@ MIT
 4. SUCCESS!
 
 * Lesson 2: Move using key-presses
-<<Lesson2>>
 1. Add global vars to hold position, size and step-size values.
 2. Modify and rename =quit-on-escape= key callback to =on-key-press=.
 3. Add logic for each cardinal direction, mapped to WASD and Arrow Keys.
@@ -99,7 +96,6 @@ MIT
 5. SUCCESS!
 
 * Lesson 3: Sprites and Textures
-<<Lesson3>>
 1. Steps go here.
 
 
