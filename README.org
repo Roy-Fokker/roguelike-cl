@@ -7,11 +7,10 @@ Learning Common Lisp by making a simplest of roguelike.
 Navigate history using Tags.
 
 ** Jumps
-- [[Lesson 0: Project Setup]]
-- [[Lesson 1: GLFW and OpenGL Window]]
-- [[Lesson 2: Move using key-presses]]
-- [[Lesson 3: Sprites and Textures]]
-
+- [[#lesson-0-project-setup][Lesson 0: Project Setup]]
+- [[#lesson-1-glfw-and-opengl-window][Lesson 1: GLFW and OpenGL Window]]
+- [[#lesson-2-move-using-key-presses][Lesson 2: Move using key-presses]]
+- [[#lesson-3-sprites-and-textures][Lesson 3: Sprites and Textures]]
 
 * System Setup
   Development OS is Window 10 [1909].
