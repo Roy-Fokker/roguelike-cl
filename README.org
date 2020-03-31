@@ -10,7 +10,7 @@ Navigate history using Tags.
 - [[#lesson-0-project-setup][Lesson 0: Project Setup]]
 - [[#lesson-1-glfw-and-opengl-window][Lesson 1: GLFW and OpenGL Window]]
 - [[#lesson-2-move-using-key-presses][Lesson 2: Move using key-presses]]
-- [[#lesson-3-sprites-and-textures][Lesson 3: Sprites and Textures]]
+- [[#lesson-3-basic-shader][Lesson 3: Basic Shader]]
 
 * System Setup
   Development OS is Window 10 [1909].
@@ -47,7 +47,8 @@ Project depends on following packages, installed via `Quicklisp`.
 ** Learning from
 - cl-glfw3-examples
 - cl-tcod-tutorial
-- 
+- [[https://github.com/BradWBeer/CLinch/wiki/GLFW-CLinch-Tutorials][GLFW CLinch Tutorials]]
+- [[https://gitlab.com/snippets/19704][WIP Common Lisp OpenGL texture rendering code]] and [[https://old.reddit.com/r/learnlisp/comments/4kaso9/clopengl_texture_mapped_quad/][Reddit Discussion]]
 
 ** Art from
 -
@@ -94,7 +95,7 @@ MIT
 4. Execute =basic-window= same as before.
 5. SUCCESS!
 
-* Lesson 3: Sprites and Textures
+* Lesson 3: Basic Shader
 1. Steps go here.
 
 
